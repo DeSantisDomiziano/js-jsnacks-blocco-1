@@ -7,7 +7,7 @@ const secondWord = prompt('scirivi un\'altra parola')
 if (firstWord.length < secondWord.length) {
     console.log(firstWord)
     console.log(secondWord)
-} else if ( firstWord.length > secondWord.lengt ) {
+} else if ( firstWord.length > secondWord.length ) {
     console.log(secondWord)
     console.log(firstWord)
 } else {
