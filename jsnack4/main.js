@@ -7,10 +7,17 @@ const guest = [
 
 let nameGuest = prompt('come ti chiami?')
 let isCheckGuest = false
-for (let i = 0; i < guest.length; i++) {
+/* for (let i = 0; i < guest.length; i++) {
     if ( guest[i] === nameGuest) {
         isCheckGuest = true
     }
+} */
+let i = 0
+while (i < guest.length) {
+    if ( guest[i] === nameGuest) {
+        isCheckGuest = true
+    }
+    i++
 }
 
 if (isCheckGuest) {
