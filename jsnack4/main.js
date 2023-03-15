@@ -1,0 +1,20 @@
+const guest = [
+    'mario',
+    'marco',
+    'gianni',
+    'giorgio',
+];
+
+let nameGuest = prompt('come ti chiami?')
+let isCheckGuest = false
+for (let i = 0; i < guest.length; i++) {
+    if ( guest[i] === nameGuest) {
+        isCheckGuest = true
+    }
+}
+
+if (isCheckGuest) {
+    alert('sei dei nostri')
+} else {
+    alert('vai via!')
+}
